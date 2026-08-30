@@ -47,7 +47,7 @@ Two things reach youtube.com: the player iframe itself, and one oEmbed request p
 
 **From Obsidian** — Settings → Community plugins → Browse → search for "Paste YouTube embed".
 
-**Manually** — download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/maxib2007/youtube-paste-embed/releases/latest) into `<vault>/.obsidian/plugins/youtube-paste-embed/`, then enable the plugin in Settings → Community plugins.
+**Manually** — download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/maxwellnewage/obsidian-youtube-paste-embed/releases/latest) into `<vault>/.obsidian/plugins/youtube-paste-embed/`, then enable the plugin in Settings → Community plugins.
 
 ## Development
 
