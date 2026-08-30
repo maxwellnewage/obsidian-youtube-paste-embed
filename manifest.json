@@ -1,0 +1,10 @@
+{
+  "id": "youtube-paste-embed",
+  "name": "Paste YouTube embed",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Turns a pasted YouTube link into an inline player with the video title, right where you paste it.",
+  "author": "maxib2007",
+  "authorUrl": "https://github.com/maxib2007",
+  "isDesktopOnly": false
+}
