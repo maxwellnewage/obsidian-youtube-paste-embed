@@ -93,7 +93,8 @@
 }
 
 /* The card provides its own padding; drop the code block chrome around it. */
-.markdown-rendered pre:has(> .ype-embed) {
+.block-language-youtube,
+.block-language-yt {
   padding: 0;
   background: transparent;
 }

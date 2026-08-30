@@ -43,6 +43,15 @@ If you would rather stay on syntax Obsidian understands on its own, switch **Ins
 
 Two things reach youtube.com: the player iframe itself, and one oEmbed request per video to read its title. Turn off **Show video title** to stop the second one; turn on **Privacy mode** to serve the player from `youtube-nocookie.com`.
 
+## Clipboard use
+
+Two paths touch the clipboard, both only in response to something you did:
+
+- **Converting on paste** reads the text of the paste event you just triggered. It never polls the clipboard on its own, and anything that is not a bare YouTube URL falls straight through to Obsidian's normal paste handling.
+- **Insert embed from clipboard** reads the clipboard when you run that command, and ignores its contents unless they are a YouTube link.
+
+Nothing from the clipboard is stored or sent anywhere. The only thing written to disk is the video title, cached in the plugin's `data.json`, which you can clear from the settings.
+
 ## Installation
 
 **From Obsidian** — Settings → Community plugins → Browse → search for "Paste YouTube embed".
